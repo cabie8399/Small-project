@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hello World 擴充功能",
+  "version": "1.0",
+  "description": "一個簡單的 Hello World 擴充功能",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 
