@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Win11風格書籤新分頁",
+  "version": "1.0",
+  "description": "Windows 11風格的書籤管理新分頁",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "storage"
+  ]
+} 

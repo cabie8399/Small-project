@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Win11 書籤</title>
+    <link rel="stylesheet" href="newtab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="desktop">
+        <!-- 桌面圖標將由 JavaScript 動態生成 -->
+    </div>
+
+    <!-- 右鍵選單 -->
+    <div id="contextMenu" class="context-menu">
+        <div class="menu-item" id="newFolder">
+            <i class="fas fa-folder-plus"></i> 新增資料夾
+        </div>
+        <div class="menu-item" id="newBookmark">
+            <i class="fas fa-bookmark"></i> 新增書籤
+        </div>
+    </div>
+
+    <!-- 新增書籤對話框 -->
+    <div id="bookmarkDialog" class="dialog">
+        <div class="dialog-content">
+            <h2>新增書籤</h2>
+            <input type="text" id="bookmarkTitle" placeholder="標題">
+            <input type="text" id="bookmarkUrl" placeholder="URL">
+            <div class="dialog-buttons">
+                <button id="saveBookmark">儲存</button>
+                <button id="cancelBookmark">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 新增資料夾對話框 -->
+    <div id="folderDialog" class="dialog">
+        <div class="dialog-content">
+            <h2>新增資料夾</h2>
+            <input type="text" id="folderName" placeholder="資料夾名稱">
+            <div class="dialog-buttons">
+                <button id="saveFolder">儲存</button>
+                <button id="cancelFolder">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="newtab.js"></script>
+</body>
+</html> 
